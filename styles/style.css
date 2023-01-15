@@ -264,6 +264,15 @@ nav>ul {
     justify-content: space-evenly;
     padding-left: 100px;
     margin-bottom: 50px;
+
+}
+
+.transformed {
+    transition: 0.4s;
+}
+
+.transformed:hover {
+    transform: scale(1.2);
 }
 
 .sponsors-logo img {
@@ -272,15 +281,16 @@ nav>ul {
 
 .footer-part {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1000px;
     background-color: #FFF4E7;
     height: 100px;
+    margin-left: 200px;
 
 
 }
 
 .footer-details {
-    padding: 30px 400px 30px 400px;
+    padding: 30px 250px 30px 250px;
 }
 
 @media only screen and (max-width: 850px) {
@@ -339,6 +349,11 @@ nav>ul {
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
         margin-right: 60px;
+    }
+
+    .footer-part {
+
+        margin: auto;
     }
 
     .footer-details {
