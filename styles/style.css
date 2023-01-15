@@ -17,7 +17,7 @@ body {
     max-width: 1920px;
     margin: 0 auto;
     background-color: rgba(255, 144, 14, 0.1);
-    ;
+    height: 700px;
 }
 
 .nav-title {
@@ -33,7 +33,7 @@ nav {
     height: 80px;
 }
 
-.barr {
+nav>ul {
     display: flex;
     list-style: none;
     gap: 10px;
@@ -70,24 +70,31 @@ nav {
 
 }
 
+.special-title {
+    font-weight: 700px;
+    font-size: 1.3em;
+}
+
 .button-styles {
     width: 180px;
     height: 64px;
     background-color: #FF900E;
     border-radius: 8px;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .banner img {
     max-width: 800px;
     width: 100%;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-right: 300px;
+}
 
-
-
-
-
+.Feature {
+    height: 320px;
+    margin-left: 30px;
+    text-align: left;
 }
 
 .Feature-title {
@@ -122,6 +129,24 @@ nav {
 
 }
 
+.experience-title {
+    margin-bottom: 27px;
+    font-weight: 500px;
+    font-size: 2em;
+    border-left: 3px solid #FF900E;
+
+}
+
+.padder {
+    margin-left: 10px;
+}
+
+.experienced {
+    width: 250px;
+
+
+}
+
 .experiences {
     width: 250px;
     margin-bottom: 25px;
@@ -132,6 +157,7 @@ nav {
 
 .experience-description {
     margin-bottom: 30px;
+    color: #727272;
 }
 
 .experiences-container {
@@ -139,20 +165,43 @@ nav {
 
 }
 
-.architect img {
-    height: 650px;
+.version-description {
+    color: #727272;
 }
 
-.version-tittle {}
+.architect img {
+    height: 850px;
+    width: 400px;
+}
+
+.architects-level {
+    width: 150px;
+    height: 100px;
+    background-color: #FF900E;
+    padding: 20px;
+    color: #F3F3F3;
+    border-radius: 10px;
+
+}
+
+.version-tittle {
+    margin-bottom: 27px;
+}
+
+
 
 .facts-container {
     margin-top: 100px;
     margin-bottom: 80px;
+    margin-left: 100px;
+
 }
 
 .work-container {
     display: flex;
     justify-content: space-around;
+
+    margin-left: 150px;
 }
 
 .works {
@@ -168,6 +217,14 @@ nav {
     padding: 50px;
 }
 
+.sponsor-title {
+    margin-bottom: 10px;
+}
+
+.sponsors-description {
+    color: #727272;
+}
+
 .sponsors {
     margin-top: 150px;
 }
@@ -181,8 +238,22 @@ nav {
 .sponsors-logo {
     display: flex;
     justify-content: space-evenly;
+    padding-left: 100px;
+    margin-bottom: 50px;
 }
 
+.footer-part {
+    width: 100%;
+    max-width: 1500px;
+    background-color: #FFF4E7;
+    height: 100px;
+
+
+}
+
+.footer-details {
+    padding: 30px 400px 30px 400px;
+}
 
 @media only screen and (max-width: 850px) {
     .Feature-container {
@@ -194,6 +265,12 @@ nav {
     .photo-gallary {
         grid-template-columns: repeat(1, 1fr);
 
+
+    }
+
+    .nav {
+        ]display: grid;
+        grid-template-columns: repeat(1, 1fr);
 
     }
 
@@ -214,14 +291,29 @@ nav {
     }
 
     .architect img {
-        width: auto;
+        width: 250px;
+    }
+
+    .Facts {
+        margin-right: 100px;
     }
 
     .work-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        margin-right: 100px;
 
     }
 
+    .sponsors-logo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        margin-right: 60px;
+    }
 
+    .footer-details {
+        padding: 10px;
+    }
 }
