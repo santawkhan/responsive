@@ -294,7 +294,7 @@ nav>ul {
     padding: 30px 250px 30px 250px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 576px) {
     .Feature-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
