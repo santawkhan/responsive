@@ -82,6 +82,13 @@ nav>ul {
     border-radius: 8px;
     margin-top: 30px;
     margin-bottom: 20px;
+    transition: 0.4s;
+}
+
+.button-styles:hover {
+    background-color: #055C9D;
+    color: #F3F3F3;
+    font-size: 1.2em;
 }
 
 .banner img {
@@ -181,7 +188,14 @@ nav>ul {
     padding: 20px;
     color: #F3F3F3;
     border-radius: 10px;
+    transition: 0.4s;
 
+}
+
+.architects-level:hover {
+    background-color: #000C66;
+    color: #75E6DA;
+    font-size: 1.2em;
 }
 
 .version-tittle {
@@ -208,6 +222,7 @@ nav>ul {
     border: #FF900E solid;
     height: 200px;
     width: 200px;
+
 }
 
 .work {
@@ -215,6 +230,15 @@ nav>ul {
     align-items: center;
     justify-content: center;
     padding: 50px;
+    transition: 0.4s;
+}
+
+.work:hover {
+    transform: scale(1.2);
+    background-color: #000C66;
+    color: #F3F3F3;
+    font-size: 1.5em;
+
 }
 
 .sponsor-title {
@@ -240,6 +264,10 @@ nav>ul {
     justify-content: space-evenly;
     padding-left: 100px;
     margin-bottom: 50px;
+}
+
+.sponsors-logo img {
+    filter: grayscale(1);
 }
 
 .footer-part {
