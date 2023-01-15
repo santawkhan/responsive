@@ -126,12 +126,11 @@ nav>ul {
 
 .experience {
     display: flex;
-    max-width: 600px;
-    width: 100%;
-    margin-left: auto;
+    justify-content: center;
+    margin-top: 50px;
+    /* margin-left: auto;
     margin-right: 600px;
-    margin-top: 100px;
-
+    margin-top: 100px; */
 
 
 }
@@ -149,7 +148,7 @@ nav>ul {
 }
 
 .experienced {
-    width: 250px;
+    /* width: 250px; */
 
 
 }
@@ -238,11 +237,13 @@ nav>ul {
     background-color: #000C66;
     color: #F3F3F3;
     font-size: 1.5em;
+    border-radius: 15px;
 
 }
 
 .sponsor-title {
     margin-bottom: 10px;
+
 }
 
 .sponsors-description {
@@ -297,6 +298,7 @@ nav>ul {
     .Feature-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        align-self: center;
 
     }
 
@@ -306,10 +308,19 @@ nav>ul {
 
     }
 
-    .nav {
-        ]display: grid;
+    nav {
+        justify-items: center;
+    }
+
+    nav>li {
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
 
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .container {
@@ -325,11 +336,14 @@ nav>ul {
     .experience {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        justify-content: start;
 
     }
 
     .architect img {
-        width: 250px;
+        max-width: 250px;
+        width: auto;
+
     }
 
     .Facts {
@@ -344,11 +358,16 @@ nav>ul {
 
     }
 
+    .sponsors {
+        margin-right: 50px;
+    }
+
     .sponsors-logo {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
         margin-right: 60px;
+
     }
 
     .footer-part {
